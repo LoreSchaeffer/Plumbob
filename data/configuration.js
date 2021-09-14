@@ -1,0 +1,1 @@
+$("#submitBtn").click(()=>{const i=$("#submitInfo"),s=$('<div id="waiting" class="loader"></div>'),a=$("<p>Trying to connect to your WiFi...<br>Please wait.</p>");i.empty(),i.append(s),i.append(a),postData("/configuration",'{ "ssid": "'+$("#ssid").val()+'", "password": "'+$("#password").val()+'" }')});

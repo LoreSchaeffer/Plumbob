@@ -1,0 +1,1 @@
+async function postData(t,a){return await fetch(t,{method:"POST",headers:{"Content-Type":"application/json"},body:a})}
