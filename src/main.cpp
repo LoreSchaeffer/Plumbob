@@ -1,5 +1,3 @@
-#define ESPALEXA_MAXDEVICES 1
-
 #include <Arduino.h>
 #include <EEPROM.h>
 #include <FS.h>
